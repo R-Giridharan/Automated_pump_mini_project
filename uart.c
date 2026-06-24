@@ -1,7 +1,7 @@
 #include"fun_declar.h"
 
 void uart_config(void)
-{//PINSEL0|=0X05;
+{  PINSEL0|=0X05;
 	U0LCR=0X83;
 	U0DLL=97;
 	U0DLM=0;
