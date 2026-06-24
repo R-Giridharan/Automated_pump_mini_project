@@ -7,7 +7,6 @@
 typedef unsigned char u8 ;
 int main()
 { 
-	//u8 rtxbyte;
 	u8 i;
 	u8 flag=0;
 	u8 c=0;
