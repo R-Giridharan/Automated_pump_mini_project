@@ -1,0 +1,10 @@
+void lcd_data(unsigned char);
+void lcd_cmd(unsigned char);
+void lcd_str(unsigned char*);
+void lcd_init(void);
+void delay_ms(signed int);
+void uart_config(void);
+void uart_tx(unsigned char txbyte);
+unsigned char uart_rx(void);
+void uart_tx_str(char *);
+void gsm_send_sms(char *);
