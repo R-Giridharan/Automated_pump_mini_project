@@ -3,7 +3,7 @@
 #include"lcd_fun.c"
 #include"uart.c"
 #include"delay.c"
-#include"defiine.h"
+#include"define.h"
 typedef unsigned char u8 ;
 int main()
 { 
